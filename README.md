@@ -40,13 +40,13 @@ The application allows users to perform K-Means clustering with the following ca
 - Automatic detection of numeric columns
 
 ### Feature Selection
-- Select any two numeric features for clustering
+- Select any `two numeric features` for clustering
 - No hardcoded column names
 - Works with different datasets without modification
 
 ### Model Configuration
 - Interactive slider to control the number of clusters
-- Optional feature standardization using `StandardScaler`
+- Optional feature standardization using [`StandardScaler`](https://scikit-learn.org/0.22/modules/generated/sklearn.preprocessing.StandardScaler.html)
 - Configurable random state for reproducibility
 
 ### Elbow and Knee Analysis
