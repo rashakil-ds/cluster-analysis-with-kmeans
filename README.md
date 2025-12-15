@@ -90,7 +90,7 @@ The application provides two complementary visual tools to select the number of 
 ---
 
 ## Project Structure
-.
+. <br>
 ├── app.py <br>
 ├── requirements.txt <br>
 ├── mall customers.csv <br>
