@@ -85,11 +85,11 @@ The application provides two complementary visual tools to select the number of 
 
 ## Project Structure
 .
-├── app.py
-├── requirements.txt
-├── mall customers.csv
-├── Market Basket Analysis using K-Means Cluster Algorithm.ipynb
-├── README.md
+├── app.py <br>
+├── requirements.txt <br>
+├── mall customers.csv <br>
+├── Market Basket Analysis using K-Means Cluster Algorithm.ipynb <br>
+├── README.md <br>
 └── .gitignore
 
 ---
