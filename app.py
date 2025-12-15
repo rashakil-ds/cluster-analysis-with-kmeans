@@ -14,8 +14,8 @@ st.set_page_config(page_title="Cluster Analysis", layout="wide")
 def set_k(val: int):
     st.session_state["k_value"] = int(val)
 
-st.title("K-Means Customer Segmentation")
-st.caption("Clustering on two features (e.g., income & score) with interactive K and visualization.")
+st.title("Cluster Analysis")
+st.caption("Clustering on two features (e.g., income & score) with interactive clusters(k) and visualization.")
 
 # data section
 st.sidebar.header("1) Data")
@@ -94,7 +94,7 @@ else:
 # elbow + knee section
 optimal_k = None
 if show_elbow:
-    st.subheader("Elbow Chart (Inertia vs k)")
+    st.subheader("Elbow Chart (Inertia vs Clusters)")
 
     col_left, col_right = st.columns([2, 1])
 
@@ -123,7 +123,7 @@ if show_elbow:
 
         fig2, ax2 = plt.subplots(figsize=(4, 4), dpi=120)
         ax2.plot(ks, inertias, label="data")
-        ax2.set_xlabel("k")
+        ax2.set_xlabel("Clusters (k)")
         ax2.set_ylabel("Inertia")
         ax2.set_title("Knee Plot")
 
