@@ -2,7 +2,7 @@
 
 ---
 
-### [Try This APP](https://cluster-analyst.streamlit.app/) <br>
+### [Try APP NOW](https://cluster-analyst.streamlit.app/) <br>
 
 ---
 
